@@ -1,14 +1,23 @@
-x = 5 
-y = 5.8
+num1 = int(input("Digite um num"))
+num2 = int(input("Digite um num"))
 
-if x == y:
+if num1 > num2: 
+    print("num1 > num2")
 
-      print("É verdade esse bilhete!")
+elif num1 == num2:
+    print("num1 = num2")    
 
-elif x > y:
-      print("É maior!")
-      
-else: print("É mentira!")  
+else:
+    print("num1 < num2")    
+
+
+
+
+
+
+
+
+
 
 
 
